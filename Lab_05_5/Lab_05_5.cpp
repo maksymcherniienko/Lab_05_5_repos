@@ -3,10 +3,6 @@
 
 using namespace std;
 
-int k;
-int n;
-int d = 0;
-
 int Bin(int k, int n, int level, int &depth)
 {
     if (level > depth)
@@ -20,7 +16,7 @@ int Bin(int k, int n, int level, int &depth)
 
 int main()
 {
-    int depth;
+    int depth, k, n;
     depth = 0;
 
     cout << "k = "; cin >> k;
